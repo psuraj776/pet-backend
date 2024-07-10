@@ -1,4 +1,4 @@
 FROM openjdk:11-jre-slim
 VOLUME /tmp
-ADD target/pet-vet-backend.jar pet-vet-backend.jar
-ENTRYPOINT ["java","-jar","/pet-vet-backend.jar"]
+ADD target/pet-vet-store-0.0.1-SNAPSHOT.jar pet-backend.jar
+ENTRYPOINT ["java","-jar","/pet-backend.jar"]

@@ -1,0 +1,116 @@
+2024-07-11 01:18:00 [main] INFO  c.p.c.AuthenticationControllerTest - Starting AuthenticationControllerTest using Java 17.0.11 on bhoot-Lenovo-ideapad-500-14ISK with PID 87342 (started by bhoot in /home/bhoot/pet-backend)
+2024-07-11 01:18:00 [main] DEBUG c.p.c.AuthenticationControllerTest - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-07-11 01:18:00 [main] INFO  c.p.c.AuthenticationControllerTest - No active profile set, falling back to default profiles: default
+2024-07-11 01:18:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@236ae13d, org.springframework.security.web.context.SecurityContextPersistenceFilter@27585351, org.springframework.security.web.header.HeaderWriterFilter@71664560, org.springframework.security.web.authentication.logout.LogoutFilter@6acffb2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29d405e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e140497, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@193eb1ba, org.springframework.security.web.session.SessionManagementFilter@d3e3085, org.springframework.security.web.access.ExceptionTranslationFilter@740fefc6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f9f3e58]
+2024-07-11 01:18:02 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.p.c.AuthenticationController:
+	{GET [/api/auth/status]}: status()
+	{POST [/api/auth/register]}: registerUser(User)
+	{POST [/api/auth/login]}: authenticateUser(User)
+2024-07-11 01:18:02 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2024-07-11 01:18:02 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2024-07-11 01:18:02 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [], /**=ResourceHttpRequestHandler [ServletContext [/]]}
+2024-07-11 01:18:02 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-07-11 01:18:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-07-11 01:18:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-07-11 01:18:02 [main] INFO  c.p.c.AuthenticationControllerTest - Started AuthenticationControllerTest in 2.938 seconds (JVM running for 4.199)
+2024-07-11 01:18:02 [main] DEBUG c.p.c.AuthenticationController - Registering user with email: test@example.com
+2024-07-11 01:18:02 [main] INFO  c.p.c.AuthenticationController - User registered successfully: test@example.com
+2024-07-11 01:18:02 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 01:18:02 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 01:18:02 [main] DEBUG c.p.c.AuthenticationController - Authenticating user with email: test@example.com
+2024-07-11 01:18:02 [main] INFO  c.p.c.AuthenticationController - User authenticated successfully: test@example.com
+2024-07-11 01:18:02 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 01:18:02 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 01:18:02 [main] DEBUG c.p.c.AuthenticationController - Checking backend status
+2024-07-11 01:18:02 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 02:50:07 [main] INFO  c.p.c.AuthenticationControllerTest - Starting AuthenticationControllerTest using Java 17.0.11 on bhoot-Lenovo-ideapad-500-14ISK with PID 93972 (started by bhoot in /home/bhoot/pet-backend)
+2024-07-11 02:50:07 [main] DEBUG c.p.c.AuthenticationControllerTest - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-07-11 02:50:07 [main] INFO  c.p.c.AuthenticationControllerTest - No active profile set, falling back to default profiles: default
+2024-07-11 02:50:09 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52d0f583, org.springframework.security.web.context.SecurityContextPersistenceFilter@d3e3085, org.springframework.security.web.header.HeaderWriterFilter@59845579, org.springframework.security.web.authentication.logout.LogoutFilter@6d6bff89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b1efaaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40bf4386, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fb8bad0, org.springframework.security.web.session.SessionManagementFilter@477021ee, org.springframework.security.web.access.ExceptionTranslationFilter@4a058df8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23310248]
+2024-07-11 02:50:09 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.p.c.AuthenticationController:
+	{GET [/api/auth/status]}: status()
+	{POST [/api/auth/register]}: registerUser(User)
+	{POST [/api/auth/login]}: authenticateUser(User)
+2024-07-11 02:50:09 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2024-07-11 02:50:09 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2024-07-11 02:50:09 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [], /**=ResourceHttpRequestHandler [ServletContext [/]]}
+2024-07-11 02:50:09 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-07-11 02:50:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-07-11 02:50:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-07-11 02:50:09 [main] INFO  c.p.c.AuthenticationControllerTest - Started AuthenticationControllerTest in 3.387 seconds (JVM running for 4.61)
+2024-07-11 02:50:10 [main] DEBUG c.p.c.AuthenticationController - Registering user with email: test@example.com
+2024-07-11 02:50:10 [main] INFO  c.p.c.AuthenticationController - User registered successfully: test@example.com
+2024-07-11 02:50:10 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 02:50:10 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 02:50:10 [main] DEBUG c.p.c.AuthenticationController - Authenticating user with email: test@example.com
+2024-07-11 02:50:10 [main] INFO  c.p.c.AuthenticationController - User authenticated successfully: test@example.com
+2024-07-11 02:50:10 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 02:50:10 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 02:50:10 [main] DEBUG c.p.c.AuthenticationController - Checking backend status
+2024-07-11 02:50:10 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:21:55 [main] INFO  c.p.c.AuthenticationControllerTest - Starting AuthenticationControllerTest using Java 17.0.11 on bhoot-Lenovo-ideapad-500-14ISK with PID 96915 (started by bhoot in /home/bhoot/pet-backend)
+2024-07-11 03:21:55 [main] DEBUG c.p.c.AuthenticationControllerTest - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-07-11 03:21:55 [main] INFO  c.p.c.AuthenticationControllerTest - No active profile set, falling back to default profiles: default
+2024-07-11 03:21:57 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8fd91d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b87074a, org.springframework.security.web.header.HeaderWriterFilter@3d2f3dcb, org.springframework.security.web.authentication.logout.LogoutFilter@d54d0f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@285005b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49cd946c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52d0f583, org.springframework.security.web.session.SessionManagementFilter@5348d83c, org.springframework.security.web.access.ExceptionTranslationFilter@6dca31eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3380ca3d]
+2024-07-11 03:21:58 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.p.c.AuthenticationController:
+	{GET [/api/auth/status]}: status()
+	{POST [/api/auth/register]}: registerUser(User)
+	{POST [/api/auth/login]}: authenticateUser(User)
+2024-07-11 03:21:58 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2024-07-11 03:21:58 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2024-07-11 03:21:58 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [], /**=ResourceHttpRequestHandler [ServletContext [/]]}
+2024-07-11 03:21:58 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-07-11 03:21:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-07-11 03:21:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-07-11 03:21:58 [main] INFO  c.p.c.AuthenticationControllerTest - Started AuthenticationControllerTest in 3.168 seconds (JVM running for 4.453)
+2024-07-11 03:21:58 [main] DEBUG c.p.c.AuthenticationController - Registering user with email: test@example.com
+2024-07-11 03:21:58 [main] INFO  c.p.c.AuthenticationController - User registered successfully: test@example.com
+2024-07-11 03:21:58 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 03:21:58 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:21:58 [main] DEBUG c.p.c.AuthenticationController - Authenticating user with email: test@example.com
+2024-07-11 03:21:58 [main] INFO  c.p.c.AuthenticationController - User authenticated successfully: test@example.com
+2024-07-11 03:21:58 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 03:21:58 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:21:58 [main] DEBUG c.p.c.AuthenticationController - Checking backend status
+2024-07-11 03:21:58 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:22:15 [main] INFO  c.p.c.AuthenticationControllerTest - Starting AuthenticationControllerTest using Java 17.0.11 on bhoot-Lenovo-ideapad-500-14ISK with PID 97029 (started by bhoot in /home/bhoot/pet-backend)
+2024-07-11 03:22:15 [main] DEBUG c.p.c.AuthenticationControllerTest - Running with Spring Boot v2.5.6, Spring v5.3.12
+2024-07-11 03:22:15 [main] INFO  c.p.c.AuthenticationControllerTest - No active profile set, falling back to default profiles: default
+2024-07-11 03:22:17 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52d0f583, org.springframework.security.web.context.SecurityContextPersistenceFilter@d3e3085, org.springframework.security.web.header.HeaderWriterFilter@59845579, org.springframework.security.web.authentication.logout.LogoutFilter@6d6bff89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b1efaaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40bf4386, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fb8bad0, org.springframework.security.web.session.SessionManagementFilter@477021ee, org.springframework.security.web.access.ExceptionTranslationFilter@4a058df8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23310248]
+2024-07-11 03:22:18 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.p.c.AuthenticationController:
+	{GET [/api/auth/status]}: status()
+	{POST [/api/auth/register]}: registerUser(User)
+	{POST [/api/auth/login]}: authenticateUser(User)
+2024-07-11 03:22:18 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2024-07-11 03:22:18 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2024-07-11 03:22:18 [main] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [], /**=ResourceHttpRequestHandler [ServletContext [/]]}
+2024-07-11 03:22:18 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-07-11 03:22:18 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-07-11 03:22:18 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-07-11 03:22:18 [main] INFO  c.p.c.AuthenticationControllerTest - Started AuthenticationControllerTest in 3.325 seconds (JVM running for 4.512)
+2024-07-11 03:22:18 [main] DEBUG c.p.c.AuthenticationController - Registering user with email: test@example.com
+2024-07-11 03:22:18 [main] INFO  c.p.c.AuthenticationController - User registered successfully: test@example.com
+2024-07-11 03:22:18 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 03:22:18 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:22:18 [main] DEBUG c.p.c.AuthenticationController - Authenticating user with email: test@example.com
+2024-07-11 03:22:18 [main] INFO  c.p.c.AuthenticationController - User authenticated successfully: test@example.com
+2024-07-11 03:22:18 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['success']
+2024-07-11 03:22:18 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
+2024-07-11 03:22:18 [main] DEBUG c.p.c.AuthenticationController - Checking backend status
+2024-07-11 03:22:18 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['message']
